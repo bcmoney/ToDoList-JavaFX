@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>ToDo List</title>
+        <vendor>Oulton College</vendor>
+        <icon href="ToDo.svg"/>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <!-- Application Resourc -->
+        <j2se version="1.8+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="ToDo.jar" main="true" />
+    </resources>
+    <application-desc
+         name="ToDo List Application"
+         main-class="com.oultoncollege.ToDo"
+         width="200"
+         height="120">
+     </application-desc>
+     <update check="background"/>
+</jnlp>
